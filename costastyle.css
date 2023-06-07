@@ -1,0 +1,381 @@
+.top-top {
+  height: 5px;
+  width: 100%;
+  background-color: #f5f6f7;
+}
+
+/* Barra de navegacion */
+
+ .navbar {
+    padding: 5px;
+    background-color: #f5f6f7;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .boton-modo-noche {
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    border-radius: 20px;
+  }
+  
+  span.navbar-toggler-icon {
+    max-height: 30px;
+    max-width: 30px;
+    background-color: rgb(150, 248, 252);
+    border-radius: 20%;
+    color: blue;
+  }
+
+  button.navbar-toggler {
+    background-color: rgb(216, 232, 238);
+    
+  }
+
+  /* Estilos generales */
+
+
+ section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+  }
+  
+  .seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+  }
+  
+  .seccion-clara {
+    color: black;
+    background-color: white;
+  }
+  
+  .seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+  }
+
+  .seccion-titulo-principal {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 15px 0;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    }
+  
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
+  
+  .seccion-texto {
+    font-size: 1.2rem;
+  }
+  
+  .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .texto-blanco {
+    color: white;
+  }
+
+   
+
+  /* Mar de Ajó */
+
+  .mar-de-ajo {
+    min-height: 500px;
+    padding: 10px;
+    color: white;
+    background-color: #1b1b32;
+  }
+
+  .mar-de-ajo .contenedor {
+    text-align: center;
+    max-width: 600px;
+  
+  }
+
+  .carousel-inner img {
+    border-radius: 20px;
+    height: 70%;
+    width: 70%;
+    max-width: 600px;
+    max-height: 380px;
+  }
+
+  /*
+  .carrusel-imagen {
+    border-radius: 10px;
+    max-height: 500px;
+    max-width: 700px;
+    margin: 10px 10px 20px 10px;
+  }
+  */
+
+
+  /* Ubicación */
+
+  .ubicacion {
+    margin-top: 80px;
+  }
+
+  .ubicacion .contenedor {
+    text-align: left;
+    max-width: 600px;
+  
+  }
+
+  .ubicacion .contenedor ul {
+    text-align: left;
+  }
+
+  .boton-ubicacion {
+    border-radius: 30px;
+    color:white;
+    background-color: red;
+    }
+
+
+    .ubicacion img {
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      display: block;
+      transition: all 0.2s ease;
+    }
+    
+    .overlay { /*Texto sobre imagenes*/
+      transition: all 0.2s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .overlay p {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    
+    
+    .ubicacion-mapa {
+      position: relative;
+    }
+    
+    .ubicacion-mapa:hover img { /*cuando el mouse esté sobre imagen, cambia estilo de imagen*/
+      opacity: 0.2;
+    }
+  
+    .ubicacion-mapa:hover .overlay { /*cuando el mouse esté sobre proyecto, cambia estilo de overlay*/
+     opacity: 1; /*opacity:0 = transparente; opacity:1 = completamente opaco*/
+    }
+  
+    .overlay .iconos-contenedor {
+      display: flex; /* para mostrar siempre en una sola fila (o poner "d-flex en el div")*/
+    }
+  
+    .overlay i {
+      width: 58px; /* Ajusta el tamaño según tus necesidades */
+      height: 58px;
+      border-radius: 50%; /* Establece un radio del 50% para que forme un círculo */
+      background-color: red; /* Puedes cambiar el color de fondo según tus preferencias */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 55px; /* Ajusta el tamaño del carácter según tus necesidades */
+      color: white;
+      margin: 3px;
+    
+    }
+
+     /* no está funcionando el formato
+     
+    .carrusel-imagen {
+      border-radius: 10px;
+      height: 300px;
+      width: 500px
+      margin: 10px 10px 20px 10px;
+    }
+    */
+
+  /* CASA */
+
+  .casa {
+    margin-top: 80px;
+  }
+
+  .casa img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+
+  /* DEPTO */
+
+  .depto {
+    margin-top: 80px;
+  }
+
+  .depto img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+   /* PARRILLA */
+
+   .parrilla {
+    margin-top: 80px;
+  }
+
+   .parrilla img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+
+  /* CONTACTO */
+
+  .contacto {
+    margin-top: 80px;
+  }
+
+  /*
+  #telefono {
+    font-size: 4rem;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #mail {
+    font-size: 4rem;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #wa {
+    font-size: 4rem;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+   */
+
+   .iconos-redes-sociales2 a { /*a cada enlace*/
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+
+   .iconos-redes-sociales2 i { /*iconos*/
+    color: blue;
+    font-size: 4rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales2 a:hover{ /*a cada enlace cuando el cursor esté sobre ellos*/
+   background-color: #1b1b32;
+   border: 2px solid rgb(13, 110, 253);
+  }
+
+  .iconos-redes-sociales2 a:hover i { /*a cada ícono cuando el cursor esté sobre EL ENLACE*/
+    color: white;
+   }
+
+
+   .iconos-redes-sociales a { /*a cada enlace*/
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i { /*iconos*/
+    color: blue;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover{ /*a cada enlace cuando el cursor esté sobre ellos*/
+   background-color: white;
+   border: 2px solid rgb(13, 110, 253);
+  }
+  
+  .iconos-redes-sociales a:hover i { /*a cada ícono cuando el cursor esté sobre EL ENLACE*/
+   color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 12px;
+    color: #aeaeae;
+    padding: 20px;
+  } 
+  
+
+   /*FOOTER*/
+
+   footer {
+    color: white;
+    background-color: #1b1b32;
+   }
+
+   .footer-logo {
+    color:white;
+    max-width: 100px;
+    max-height: 50px;
+   }
+   
